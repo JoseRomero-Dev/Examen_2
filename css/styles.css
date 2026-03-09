@@ -1,0 +1,82 @@
+body{
+    margin:0;
+}
+
+.wrapper{
+    display:flex;
+}
+
+/* SIDEBAR */
+
+.sidebar{
+    width:80px;
+    height:100vh;
+    background:#212529;
+    color:white;
+    transition:0.3s;
+    overflow:hidden;
+}
+
+.sidebar:hover{
+    width:230px;
+}
+
+/* header */
+
+.sidebar-header{
+    padding:20px;
+    display:flex;
+    align-items:center;
+    font-size:1.2rem;
+}
+
+.sidebar-header i{
+    font-size:1.5rem;
+    margin-right:10px;
+}
+
+/* links */
+
+.sidebar ul{
+    padding:0;
+}
+
+.sidebar ul li a{
+    display:flex;
+    align-items:center;
+    padding:15px 20px;
+    color:white;
+    text-decoration:none;
+}
+
+.sidebar ul li a:hover{
+    background:#343a40;
+}
+
+/* iconos */
+
+.sidebar i{
+    font-size:1.3rem;
+    min-width:40px;
+}
+
+/* texto oculto */
+
+.sidebar span{
+    opacity:0;
+    transition:0.2s;
+}
+
+/* texto visible */
+
+.sidebar:hover span{
+    opacity:1;
+}
+
+/* CONTENIDO */
+
+.content{
+    flex-grow:1;
+    background:#f8f9fa;
+    min-height:100vh;
+}
