@@ -77,6 +77,6 @@ body{
 
 .content{
     flex-grow:1;
-    background:#f8f9fa;
+    background: linear-gradient(to bottom, #343a408f, white);
     min-height:100vh;
 }
